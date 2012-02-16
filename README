@@ -1,0 +1,9 @@
+FRANKRB
+
+    A simple demonstration of what can be accomplished using
+    plain Rack + Ruby.
+  
+    It was originally conceived while writing a blog post.
+    You can find the original post here:
+
+    http://cyrildavid.com/articles/2012/01/03/understanding-rack
