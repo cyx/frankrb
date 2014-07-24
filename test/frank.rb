@@ -16,8 +16,14 @@ class Support < Frank
   end
 
   get "/submit" do
-    "<form method='post'><textarea name='issue'></textarea>" +
-    "<input type='submit' name='submit' value='Help'></form>"
+    <<-HTML
+      <html>
+        <form method='post'>
+          <textarea name='issue'></textarea>
+          <input type='submit' name='submit' value='Help'>
+        </form>
+      </html>
+    HTML
   end
 
   post "/submit" do
